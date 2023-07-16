@@ -14,7 +14,7 @@ function Produtos() {
   }, []);
 
   const loadProdutos = async () => {
-    const result = await axios.get('http://localhost:8080/api/comandaproduto/list');
+    const result = await axios.get('http://localhost:8080/api/comandaproduto/list', produtos);
     setProdutos(result.data);
   };
    const deleteProdutos = async (produtosId) => {
@@ -67,7 +67,7 @@ function Produtos() {
                   >
                     <TrashSimple />
                   </button>
-                    <a href="#" className={styles.edit}>
+                    <a href="/editproduto/:comandaId" className={styles.edit}>
                       <Pencil />
                     </a>
                   </td>

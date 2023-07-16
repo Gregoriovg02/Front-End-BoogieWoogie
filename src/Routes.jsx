@@ -7,6 +7,7 @@ import FormsCliente from "./Pages/FormsCliente/FormsCliente";
 import FormsComanda from "./Pages/FormsComanda/FormsComanda";
 import EditCliente from "./Pages/FormsCliente/EditCliente";
 import FormsProduto from "./Pages/FormsProduto/FormsProduto";
+import EditProduto from "./Pages/FormsProduto/EditProduto";
 
  function AppRoutes() {
     return (
@@ -20,6 +21,7 @@ import FormsProduto from "./Pages/FormsProduto/FormsProduto";
                 <Route path="/addcomanda" element={ <FormsComanda /> } ></Route>
                 <Route path="/addvenda" element={ <FormsProduto /> } ></Route>
                 <Route path="/editcliente/:id" element={ <EditCliente /> } ></Route>
+                <Route path="/editproduto/:comandaId" element={ <EditProduto /> } ></Route>
                 </Routes>
         </BrowserRouter>
     )
