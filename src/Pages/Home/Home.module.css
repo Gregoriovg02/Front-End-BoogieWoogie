@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+
+}
+
+.divisao {
+    display: flex;
+    align-items: center;
+    margin-left: 110%;
+    margin-right: 19rem;
+    padding-top: 3rem;
+    gap: 3rem;
+  
+}
+
+button {
+    background-color: var(--green-500);
+}
+
+.estilobtncliente{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    margin-right: 0;
+    padding: 0;
+    
+}
+.estilobtncomanda{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    margin-right: 0;
+    padding: 0;
+}
+.estilobtnproduto{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    margin-right: 0;
+    padding: 0;
+}
+
+.btnCliente {
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 39px;
+    background-color: var(--green-500);
+    border: none;
+    border-radius: 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+}
+.btnComanda {
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: var(--green-500);
+    border: none;
+    border-radius: 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+}
+.btnProduto {
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: var(--green-500);
+    border: none;
+    border-radius: 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+}
+
+
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+
+
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+.logo{
+    width: 150%;
+    margin-top: 5rem;
+    margin-left: 140%;
+}

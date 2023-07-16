@@ -1,0 +1,73 @@
+
+* {
+    margin: 0%;
+
+}
+.container{
+    margin-top: 5%;
+    border-radius: 20%;
+}
+
+.btncontainer{
+    display: block;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formgroup {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.formgroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: black;
+}
+
+.formcontrol {
+    font-family: Raleway;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: black;
+}
+.formcomercia {
+    font-family: Raleway;
+    color: black;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.btnsalvar {
+    font-family: Raleway;
+    display: inline-block;
+
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 5%;
+    border-radius: 24px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btnsalvar:hover {
+    background-color: #555;
+}
+
+.returnlist:hover{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

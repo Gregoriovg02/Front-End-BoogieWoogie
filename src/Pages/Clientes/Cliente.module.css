@@ -1,0 +1,81 @@
+td, th {
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+  }
+  
+  th{
+    background-color: var(--green-500);
+    
+  }
+  td{
+    font-weight:bold;
+    background-color: var(--gray-700);
+    
+    /*background-color: #EEE;*/
+  }
+  
+  table{
+    width: 100%;
+    text-align: center;
+  }
+  .btnCadatro {
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var(--green-500);
+    border: none;
+    border-radius: 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 85%;
+}
+.estilobtncadastro{
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  margin-right: 0;
+  padding: 0;
+    
+}
+.lixeira{
+  color: rgb(160, 6, 6);
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  
+}
+
+.lixeira:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.edit{
+  color: rgb(17, 104, 216);
+  padding: 0;
+}
+.edit:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.divtabela{
+  width: 70%;
+  height: 100%;
+  margin-left: 13%;
+  margin-top: 8%;
+}
+
+.mudelo{
+  padding-top: 5%;
+}

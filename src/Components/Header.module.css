@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: var(--gray-800);
+    padding: 1.25rem 1.25rem;
+    height: 60px ;
+
+}
+
+a{  
+    color: var(--green-500);
+    width: 32px;
+    height: 32px;
+    margin-right: 1rem;
+}
+
+svg{ 
+    width: 32px;
+    height: 32px; 
+   
+}
